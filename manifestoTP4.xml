@@ -2,7 +2,7 @@
 <manifesto>
     <meta>
         <id>PRI-TP4</id>
-        <titulo>Quran: XML to HTML</titulo>
+        <titulo>Node.JS e HTML: Arquivo de Música Digital</titulo>
         <subtitulo>Quarto trabalho prático da UC de Processamento e Representação de Informação</subtitulo>
         <dinicio>8 de Outubro de 2018</dinicio>
         <dfim>9 de Outubro de 2018</dfim>
@@ -23,12 +23,15 @@
     </equipe>
     <resumo>
         <para>
-                
+            A quarta entrega consiste na conversão dos links do Arquivo Musical para os de um servidor que, enquanto a correr, faz a seleção das páginas a ser mostradas em vez da chamada a ficheiros locais.
+            A navegação pelo site é gerida unicamente pelo servidor.
+        </para>       
+        <para>
+            No repositório git estão incluídos os ficheiros de HTML do website e o servidor node.js. Também foram incluídos os ficheiros de conversão XSLT para HTML, XML de origem e manifesto, em ambos os formatos.    
         </para>
-                
     </resumo>
     <resultados>
-        <resultado path="https://github.com/antonioexbrii/PLC_TP4">Ficheiro HTML com o índice e informações sobre o livro</resultado>
+        <resultado path="https://github.com/antonioexbrii/PLC_TP4">Repositório Git</resultado>
         
     </resultados>
 </manifesto>
