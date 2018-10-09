@@ -19,7 +19,6 @@ http.createServer((req,res)=>{
 		var purl = url.parse(req.url,true)
 		var q = purl.query
 		
-		var home = "./website/html/obra"+q.id
 		console.log("Enviar pagina")
 		fs.readFile("./website/html/obra"+q.id+".html", (err,data)=>{
 			res.writeHead(200,{'Content-type':'text/html'})
